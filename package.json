@@ -1,0 +1,17 @@
+{
+  "name": "pdfforge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Johan Galeano",
+  "license": "ISC",
+  "description": "PDFForge es una aplicación web que te permite convertir páginas web en archivos PDF de manera rápida y sencilla. Simplemente ingresa la URL del sitio web que deseas convertir, y PDFForge generará un archivo PDF con el contenido completo de la página.",
+  "dependencies": {
+    "express": "^4.19.2",
+    "puppeteer": "^22.12.1"
+  }
+}
